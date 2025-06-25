@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+     * {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+     /* font-family: 'Poppins', sans-serif; */
+ }
+ nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 35px;
+            background-color: rgba(4, 2, 41, 0.753);
+            
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 30px;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+
+            font-size: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            /* list-style: none;
+    margin: 0 23px; */
+            color: white;
+            /* font-size: 25px; */
+            padding: 20px;
+        }
+
+        .left {
+            font-size: 1rem;
+            color: white;
+            font-size: 30px;
+        }
+/* body {font-family: Arial, Helvetica, sans-serif;} */
+* {box-sizing: border-box;}
+body {
+            font-family: "Roboto Slab", serif;
+
+            font-weight: 300;
+            font-style: normal;
+            margin: 0px;
+
+        }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 5px;
+   background-color: rgba(0, 0, 0, 0.555);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+}
+
+input[type=submit] {
+  background-color: #0D7CC2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #004169;
+}
+
+.container {
+  border-radius: 5px;
+   background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+    color: #0D7CC2;
+}
+#lname{
+border-radius: 5px;
+ width: 580px;
+ height: 40px;
+ padding-left: 10px;
+ 
+   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.555);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+  /* color: white; */
+  
+
+}
+ footer{
+            background-color: #0D7CC2;
+            height: 233px;
+        }
+        .footer{
+         display: flex; 
+         padding: 23px 122px;  
+         justify-content: space-evenly;
+        }
+        .footer-second{
+            margin-right: 200px;
+            
+        }
+        .footer-second a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer-second a:hover{
+            color: #002ca7;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div {
+           width: 223px; 
+        }
+        footer .text-center{
+            text-align: center ;
+            padding: 12px ;
+            background-color: #0D7CC2;
+        }
+</style>
+</head>
+<body background="background.png">
+    <header>
+        <nav>
+            <div class="left">Prasan Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact_us.html">Contact Me</a> </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="d62d2245-db1c-47f7-a593-eb2795a09b4a">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Gmail</label><br>
+    <input type="email" id="lname" name="email" placeholder="email"><br>
+    
+
+    <!-- <label for="country">Country</label> -->
+    <!-- <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select> -->
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<footer>
+        <div class="footer">
+            <h3>Prasan's Developer Portfolio</h3>
+            <div class="footer-first"> </div>
+            <div class="footer-second">
+            <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact_us.html">Contact Me</a> </li>
+
+                </ul>
+                </div>
+            <div class="footer-fourth">
+                 <ul>
+                <li>Phone:9765664857</li>
+                <li>Email:xrasansapkota@gmail.com</li>
+                <li>facebook:Prasan Sapkota</li>
+                <li>Instagram:@Prasan1</li>
+            </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            <br>
+            <br>
+            <br>
+            www.Prasan Sapkota.com | All right reserved 
+        </div>
+    </footer>
+
+</body>
+</html>
