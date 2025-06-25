@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #457B9D;
+            color: white;
+            /* background-image: url(''); */
+        }
+        
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 35px;
+            background-color: rgba(4, 2, 41, 0.753);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 30px;
+
+        }
+
+         nav ul li a:hover {
+            color: rgb(153, 153, 226);
+
+            font-size: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            /* list-style: none;
+    margin: 0 23px; */
+            color: white;
+            /* font-size: 25px; */
+            padding: 20px;
+        }
+
+        .left {
+            font-size: 1rem;
+            color: white;
+            font-size: 30px;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            /* background-color: red; */
+            /* width: 34px  ; */
+            font-size: 3rem;
+            margin: 30px;
+            color: #c2c5aa;
+            width: 30px;
+
+        }
+
+        .rightSection img {
+            /* background-color: red;
+    width: 34px  ; */
+            width: 80%;
+            margin: 50px 0;
+            border-radius: 50%;
+        }
+
+        .purple {
+            color: #f8961e;
+        }
+
+        /* .text-gray {} */
+
+        #element {
+            color: #f8961e;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        body {
+            font-family: "Roboto Slab", serif;
+
+            font-weight: 300;
+            font-style: normal;
+            margin: 0px;
+
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+         height: 93px;
+         width: 1px;
+         background-color: white;
+        margin: 0 120px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+            border-radius: 10px;
+
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            background-color: #0D7CC2;
+            padding: 10px;
+            border: 4px solid #002ca7;
+            border-radius: 10px;
+
+        }
+        .vertical-desc{
+           position: relative;
+           top: 86px;
+           color: gray;
+           width: 150px;
+           font-size: 9px;
+        }
+        footer{
+            background-color: #0D7CC2;
+            height: 233px;
+        }
+        .footer{
+         display: flex; 
+         padding: 23px 122px;  
+         justify-content: space-evenly;
+        }
+        .footer-second{
+            margin-right: 200px;
+            
+        }
+        .footer-second a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer-second a:hover{
+            color: #002ca7;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div {
+           width: 223px; 
+        }
+        footer .text-center{
+            text-align: center ;
+            padding: 12px ;
+        }
+    </style>
+</head>
+
+<body background="background.png">
+    <header>
+        <nav>
+            <div class="left">Prasan Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact_us.htmls">Contact Me</a> </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+  
+    <main>
+
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is<span class="purple"> Prasan</span>
+                <div>
+                    and I am a Passionate
+                </div>
+                <!-- <div>Web Developer </div> -->
+                <span id="element"></span>
+
+            </div>
+            <div class="rightSection">
+                <img src="ChatGPT Image Jun 23, 2025, 10_39_00 AM.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so Far</span>
+            <h1>Work Experience </h1>
+            <div class="box">
+
+                <!-- <hr style="height: 2px; background-color: white;"> -->
+                <div class="vertical">
+                    <img src="ChatGPT Image Jun 24, 2025, 11_27_11 AM.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Internship from 2010-2012
+                    </div>
+                    <div class="vertical-desc">
+                      <!-- As an HTML Developer, I was responsible for 
+                      building and maintaining the structure and layout of
+                       web pages using clean, standards-compliant HTML. 
+                       I worked closely with designers to translate visual 
+                       concepts into responsive, browser-compatible pages, e`nsuring accessibility and usability.  -->
+                    </div>
+                </div>
+                
+                <div class="vertical">
+                    <img src="pngwing.com.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Front End Developer 2012-2014
+                    </div>
+                    <div class="vertical-desc">
+                     <!-- As an early adopter of Node.js, I was responsible for building and maintaining scalable server-side
+                      applications using JavaScript and asynchronous programming principles. My role involved developing
+                       RESTful APIs, integrating databases such as MongoDB and MySQL, and optimizing backend performance 
+                       for real-time applications. I collaborated clo
+                     sely with front-end developers and UI/UX teams to deliver responsive, efficient web solutions -->
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="instagram.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        BackEnd  Developer 2014-2016
+                    </div>
+                    <div class="vertical-desc">
+                      <!-- As an HTML Developer, I was responsible for 
+                      building and maintaining the structure and layout of
+                       web pages using clean, standards-compliant HTML. 
+                       I worked closely with designers to translate visual 
+                       concepts into responsive, browser-compatible pages, ensuring accessibility and usability.  -->
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="twiter.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Full- Stack Developer 2016-2018
+                    </div>
+                    <!-- <div class="vertical-desc">
+                      As an HTML Developer, I was responsible for 
+                      building and maintaining the structure and layout of
+                       web pages using clean, standards-compliant HTML. 
+                       I worked closely with designers to translate visual 
+                       concepts into responsive, browser-compatible pages, ensuring accessibility and usability.  -->
+                    </div>
+                </div>
+                <!-- <div class="vertical">
+                    <img src="facebook.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Node.js Developer 2018-2025
+                    </div>
+                    <div class="vertical-desc">
+                      <!-- As an HTML Developer, I was responsible for 
+                      building and maintaining the structure and layout of
+                       web pages using clean, standards-compliant HTML. 
+                       I worked closely with designers to translate visual 
+                       concepts into responsive, browser-compatible pages, ensuring accessibility and usability.  
+                    </div> -->
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3>Prasan's Developer Portfolio</h3>
+            <div class="footer-first"> </div>
+            <div class="footer-second">
+            <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact_us.html">Contact Me</a> </li>
+
+                </ul>
+                </div>
+            <div class="footer-fourth">
+                 <ul>
+                <li>Phone:9765664857</li>
+                <li>Email:xrasansapkota@gmail.com</li>
+                <li>facebook:Prasan Sapkota</li>
+                <li>Instagram:@Prasan1</li>
+            </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            <br>
+            <br>
+            <br>
+            www.Prasan Sapkota.com | All right reserved 
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Engineer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
